@@ -1,0 +1,14 @@
+.photo-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.photo-list:after {
+  content: "";
+  flex: 0 1 30%;
+  margin: 5px;
+}
